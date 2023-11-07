@@ -1,0 +1,982 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.32.3-Lima" saveDateTime="2023-09-25T13:09:18" saveUser="joeypaulelihaynes" projectname="" saveUserFull="Joey Paul Eli Haynes">
+  <homePath path=""/>
+  <title></title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <elevation-shading-renderer light-altitude="45" light-azimuth="315" edl-is-active="1" hillshading-z-factor="1" hillshading-is-multidirectional="0" edl-strength="1000" edl-distance="0.5" combined-method="0" is-active="0" hillshading-is-active="0" edl-distance-unit="0"/>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer name="GIS_Layer_Version1" legend_exp="" source="./GIS_Layer_Version1.tif" expanded="0" checked="Qt::Checked" legend_split_behavior="0" patch_size="-1,-1" id="GIS_Layer_Version1_b9f974f5_f801_4820_932d_71a05fee3d86" providerKey="gdal">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="OSM Standard" legend_exp="" source="type=xyz&amp;zmin=0&amp;zmax=19&amp;url=http://tile.openstreetmap.org/{z}/{x}/{y}.png" expanded="1" checked="Qt::Checked" legend_split_behavior="0" patch_size="-1,-1" id="OSM_Standard_8bca87c8_1e64_4a44_9f54_25956dcd6af1" providerKey="wms">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>GIS_Layer_Version1_b9f974f5_f801_4820_932d_71a05fee3d86</item>
+      <item>OSM_Standard_8bca87c8_1e64_4a44_9f54_25956dcd6af1</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" enabled="0" mode="2" tolerance="12" scaleDependencyMode="0" minScale="0" self-snapping="0" unit="1" type="1" maxScale="0">
+    <individual-layer-settings/>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>-183.14655871741291548</xmin>
+      <ymin>5.30084163381965112</ymin>
+      <xmax>-47.82111625240638375</xmax>
+      <ymax>76.70147245175874673</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="GIS_Layer_Version1" drawingOrder="-1" open="false" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="GIS_Layer_Version1_b9f974f5_f801_4820_932d_71a05fee3d86" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="OSM Standard" drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="OSM_Standard_8bca87c8_1e64_4a44_9f54_25956dcd6af1" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapcanvas name="georefCanvas" annotationsVisible="1">
+    <units>unknown</units>
+    <extent>
+      <xmin>5199.97750584565710597</xmin>
+      <ymin>-9689.56114020807581255</ymin>
+      <xmax>19088.1044269434241869</xmax>
+      <ymax>-2368.68803451528265214</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <main-annotation-layer hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" type="annotation" styleCategories="AllStyleCategories" maxScale="0">
+    <id>Annotations_87f98611_f7eb_42e1_8868_0a6f40c4cf75</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <dates/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+      <Private>0</Private>
+    </flags>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" maxScale="0">
+      <extent>
+        <xmin>-179.92452437300798351</xmin>
+        <ymin>7.00085665329439166</ymin>
+        <xmax>-51.04315059681130151</xmax>
+        <ymax>75.00145743228399908</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-179.92452437300798351</xmin>
+        <ymin>7.00085665329439166</ymin>
+        <xmax>-51.04315059681130151</xmax>
+        <ymax>75.00145743228399908</ymax>
+      </wgs84extent>
+      <id>GIS_Layer_Version1_b9f974f5_f801_4820_932d_71a05fee3d86</id>
+      <datasource>./GIS_Layer_Version1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>GIS_Layer_Version1</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" mode="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation zscale="1" enabled="0" symbology="Line" zoffset="0" band="1">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{a1d15b96-fbe3-4d28-99f6-fd943bc62dc6}" class="SimpleLine" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="190,178,151,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.6" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{5e63b335-c416-4a40-83b5-5c68d156cccb}" class="SimpleFill" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="190,178,151,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="no" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+      </elevation>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" value="Value" type="QString"/>
+        </Option>
+      </customproperties>
+      <mapTip enabled="1"></mapTip>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" value="" type="QString"/>
+          <Option name="properties"/>
+          <Option name="type" value="collection" type="QString"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer opacity="1" alphaBand="-1" nodataColor="" type="paletted" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <colorPalette>
+            <paletteEntry value="0" color="#000000" alpha="255" label="0"/>
+            <paletteEntry value="1" color="#ffffff" alpha="255" label="1"/>
+            <paletteEntry value="2" color="#232323" alpha="255" label="2"/>
+            <paletteEntry value="3" color="#464646" alpha="255" label="3"/>
+            <paletteEntry value="4" color="#012584" alpha="255" label="4"/>
+            <paletteEntry value="5" color="#013edc" alpha="255" label="5"/>
+            <paletteEntry value="6" color="#316a1b" alpha="255" label="6"/>
+            <paletteEntry value="7" color="#53b12e" alpha="255" label="7"/>
+            <paletteEntry value="8" color="#908c2e" alpha="255" label="8"/>
+            <paletteEntry value="9" color="#cec842" alpha="255" label="9"/>
+            <paletteEntry value="10" color="#a25827" alpha="255" label="10"/>
+            <paletteEntry value="11" color="#d87635" alpha="255" label="11"/>
+            <paletteEntry value="12" color="#9a2421" alpha="255" label="12"/>
+            <paletteEntry value="13" color="#ed3833" alpha="255" label="13"/>
+            <paletteEntry value="14" color="#bfbfbf" alpha="255" label="14"/>
+            <paletteEntry value="15" color="#000000" alpha="255" label="15"/>
+            <paletteEntry value="16" color="#000000" alpha="255" label="16"/>
+            <paletteEntry value="17" color="#000000" alpha="255" label="17"/>
+            <paletteEntry value="18" color="#000000" alpha="255" label="18"/>
+            <paletteEntry value="19" color="#000000" alpha="255" label="19"/>
+            <paletteEntry value="20" color="#000000" alpha="255" label="20"/>
+            <paletteEntry value="21" color="#000000" alpha="255" label="21"/>
+            <paletteEntry value="22" color="#000000" alpha="255" label="22"/>
+            <paletteEntry value="23" color="#000000" alpha="255" label="23"/>
+            <paletteEntry value="24" color="#000000" alpha="255" label="24"/>
+            <paletteEntry value="25" color="#000000" alpha="255" label="25"/>
+            <paletteEntry value="26" color="#000000" alpha="255" label="26"/>
+            <paletteEntry value="27" color="#000000" alpha="255" label="27"/>
+            <paletteEntry value="28" color="#000000" alpha="255" label="28"/>
+            <paletteEntry value="29" color="#000000" alpha="255" label="29"/>
+            <paletteEntry value="30" color="#000000" alpha="255" label="30"/>
+            <paletteEntry value="31" color="#000000" alpha="255" label="31"/>
+            <paletteEntry value="32" color="#000000" alpha="255" label="32"/>
+            <paletteEntry value="33" color="#000000" alpha="255" label="33"/>
+            <paletteEntry value="34" color="#000000" alpha="255" label="34"/>
+            <paletteEntry value="35" color="#000000" alpha="255" label="35"/>
+            <paletteEntry value="36" color="#000000" alpha="255" label="36"/>
+            <paletteEntry value="37" color="#000000" alpha="255" label="37"/>
+            <paletteEntry value="38" color="#000000" alpha="255" label="38"/>
+            <paletteEntry value="39" color="#000000" alpha="255" label="39"/>
+            <paletteEntry value="40" color="#000000" alpha="255" label="40"/>
+            <paletteEntry value="41" color="#000000" alpha="255" label="41"/>
+            <paletteEntry value="42" color="#000000" alpha="255" label="42"/>
+            <paletteEntry value="43" color="#000000" alpha="255" label="43"/>
+            <paletteEntry value="44" color="#000000" alpha="255" label="44"/>
+            <paletteEntry value="45" color="#000000" alpha="255" label="45"/>
+            <paletteEntry value="46" color="#000000" alpha="255" label="46"/>
+            <paletteEntry value="47" color="#000000" alpha="255" label="47"/>
+            <paletteEntry value="48" color="#000000" alpha="255" label="48"/>
+            <paletteEntry value="49" color="#000000" alpha="255" label="49"/>
+            <paletteEntry value="50" color="#000000" alpha="255" label="50"/>
+            <paletteEntry value="51" color="#000000" alpha="255" label="51"/>
+            <paletteEntry value="52" color="#000000" alpha="255" label="52"/>
+            <paletteEntry value="53" color="#000000" alpha="255" label="53"/>
+            <paletteEntry value="54" color="#000000" alpha="255" label="54"/>
+            <paletteEntry value="55" color="#000000" alpha="255" label="55"/>
+            <paletteEntry value="56" color="#000000" alpha="255" label="56"/>
+            <paletteEntry value="57" color="#000000" alpha="255" label="57"/>
+            <paletteEntry value="58" color="#000000" alpha="255" label="58"/>
+            <paletteEntry value="59" color="#000000" alpha="255" label="59"/>
+            <paletteEntry value="60" color="#000000" alpha="255" label="60"/>
+            <paletteEntry value="61" color="#000000" alpha="255" label="61"/>
+            <paletteEntry value="62" color="#000000" alpha="255" label="62"/>
+            <paletteEntry value="63" color="#000000" alpha="255" label="63"/>
+            <paletteEntry value="64" color="#000000" alpha="255" label="64"/>
+            <paletteEntry value="65" color="#000000" alpha="255" label="65"/>
+            <paletteEntry value="66" color="#000000" alpha="255" label="66"/>
+            <paletteEntry value="67" color="#000000" alpha="255" label="67"/>
+            <paletteEntry value="68" color="#000000" alpha="255" label="68"/>
+            <paletteEntry value="69" color="#000000" alpha="255" label="69"/>
+            <paletteEntry value="70" color="#000000" alpha="255" label="70"/>
+            <paletteEntry value="71" color="#000000" alpha="255" label="71"/>
+            <paletteEntry value="72" color="#000000" alpha="255" label="72"/>
+            <paletteEntry value="73" color="#000000" alpha="255" label="73"/>
+            <paletteEntry value="74" color="#000000" alpha="255" label="74"/>
+            <paletteEntry value="75" color="#000000" alpha="255" label="75"/>
+            <paletteEntry value="76" color="#000000" alpha="255" label="76"/>
+            <paletteEntry value="77" color="#000000" alpha="255" label="77"/>
+            <paletteEntry value="78" color="#000000" alpha="255" label="78"/>
+            <paletteEntry value="79" color="#000000" alpha="255" label="79"/>
+            <paletteEntry value="80" color="#000000" alpha="255" label="80"/>
+            <paletteEntry value="81" color="#000000" alpha="255" label="81"/>
+            <paletteEntry value="82" color="#000000" alpha="255" label="82"/>
+            <paletteEntry value="83" color="#000000" alpha="255" label="83"/>
+            <paletteEntry value="84" color="#000000" alpha="255" label="84"/>
+            <paletteEntry value="85" color="#000000" alpha="255" label="85"/>
+            <paletteEntry value="86" color="#000000" alpha="255" label="86"/>
+            <paletteEntry value="87" color="#000000" alpha="255" label="87"/>
+            <paletteEntry value="88" color="#000000" alpha="255" label="88"/>
+            <paletteEntry value="89" color="#000000" alpha="255" label="89"/>
+            <paletteEntry value="90" color="#000000" alpha="255" label="90"/>
+            <paletteEntry value="91" color="#000000" alpha="255" label="91"/>
+            <paletteEntry value="92" color="#000000" alpha="255" label="92"/>
+            <paletteEntry value="93" color="#000000" alpha="255" label="93"/>
+            <paletteEntry value="94" color="#000000" alpha="255" label="94"/>
+            <paletteEntry value="95" color="#000000" alpha="255" label="95"/>
+            <paletteEntry value="96" color="#000000" alpha="255" label="96"/>
+            <paletteEntry value="97" color="#000000" alpha="255" label="97"/>
+            <paletteEntry value="98" color="#000000" alpha="255" label="98"/>
+            <paletteEntry value="99" color="#000000" alpha="255" label="99"/>
+            <paletteEntry value="100" color="#000000" alpha="255" label="100"/>
+            <paletteEntry value="101" color="#000000" alpha="255" label="101"/>
+            <paletteEntry value="102" color="#000000" alpha="255" label="102"/>
+            <paletteEntry value="103" color="#000000" alpha="255" label="103"/>
+            <paletteEntry value="104" color="#000000" alpha="255" label="104"/>
+            <paletteEntry value="105" color="#000000" alpha="255" label="105"/>
+            <paletteEntry value="106" color="#000000" alpha="255" label="106"/>
+            <paletteEntry value="107" color="#000000" alpha="255" label="107"/>
+            <paletteEntry value="108" color="#000000" alpha="255" label="108"/>
+            <paletteEntry value="109" color="#000000" alpha="255" label="109"/>
+            <paletteEntry value="110" color="#000000" alpha="255" label="110"/>
+            <paletteEntry value="111" color="#000000" alpha="255" label="111"/>
+            <paletteEntry value="112" color="#000000" alpha="255" label="112"/>
+            <paletteEntry value="113" color="#000000" alpha="255" label="113"/>
+            <paletteEntry value="114" color="#000000" alpha="255" label="114"/>
+            <paletteEntry value="115" color="#000000" alpha="255" label="115"/>
+            <paletteEntry value="116" color="#000000" alpha="255" label="116"/>
+            <paletteEntry value="117" color="#000000" alpha="255" label="117"/>
+            <paletteEntry value="118" color="#000000" alpha="255" label="118"/>
+            <paletteEntry value="119" color="#000000" alpha="255" label="119"/>
+            <paletteEntry value="120" color="#000000" alpha="255" label="120"/>
+            <paletteEntry value="121" color="#000000" alpha="255" label="121"/>
+            <paletteEntry value="122" color="#000000" alpha="255" label="122"/>
+            <paletteEntry value="123" color="#000000" alpha="255" label="123"/>
+            <paletteEntry value="124" color="#000000" alpha="255" label="124"/>
+            <paletteEntry value="125" color="#000000" alpha="255" label="125"/>
+            <paletteEntry value="126" color="#000000" alpha="255" label="126"/>
+            <paletteEntry value="127" color="#000000" alpha="255" label="127"/>
+            <paletteEntry value="128" color="#000000" alpha="255" label="128"/>
+            <paletteEntry value="129" color="#000000" alpha="255" label="129"/>
+            <paletteEntry value="130" color="#000000" alpha="255" label="130"/>
+            <paletteEntry value="131" color="#000000" alpha="255" label="131"/>
+            <paletteEntry value="132" color="#000000" alpha="255" label="132"/>
+            <paletteEntry value="133" color="#000000" alpha="255" label="133"/>
+            <paletteEntry value="134" color="#000000" alpha="255" label="134"/>
+            <paletteEntry value="135" color="#000000" alpha="255" label="135"/>
+            <paletteEntry value="136" color="#000000" alpha="255" label="136"/>
+            <paletteEntry value="137" color="#000000" alpha="255" label="137"/>
+            <paletteEntry value="138" color="#000000" alpha="255" label="138"/>
+            <paletteEntry value="139" color="#000000" alpha="255" label="139"/>
+            <paletteEntry value="140" color="#000000" alpha="255" label="140"/>
+            <paletteEntry value="141" color="#000000" alpha="255" label="141"/>
+            <paletteEntry value="142" color="#000000" alpha="255" label="142"/>
+            <paletteEntry value="143" color="#000000" alpha="255" label="143"/>
+            <paletteEntry value="144" color="#000000" alpha="255" label="144"/>
+            <paletteEntry value="145" color="#000000" alpha="255" label="145"/>
+            <paletteEntry value="146" color="#000000" alpha="255" label="146"/>
+            <paletteEntry value="147" color="#000000" alpha="255" label="147"/>
+            <paletteEntry value="148" color="#000000" alpha="255" label="148"/>
+            <paletteEntry value="149" color="#000000" alpha="255" label="149"/>
+            <paletteEntry value="150" color="#000000" alpha="255" label="150"/>
+            <paletteEntry value="151" color="#000000" alpha="255" label="151"/>
+            <paletteEntry value="152" color="#000000" alpha="255" label="152"/>
+            <paletteEntry value="153" color="#000000" alpha="255" label="153"/>
+            <paletteEntry value="154" color="#000000" alpha="255" label="154"/>
+            <paletteEntry value="155" color="#000000" alpha="255" label="155"/>
+            <paletteEntry value="156" color="#000000" alpha="255" label="156"/>
+            <paletteEntry value="157" color="#000000" alpha="255" label="157"/>
+            <paletteEntry value="158" color="#000000" alpha="255" label="158"/>
+            <paletteEntry value="159" color="#000000" alpha="255" label="159"/>
+            <paletteEntry value="160" color="#000000" alpha="255" label="160"/>
+            <paletteEntry value="161" color="#000000" alpha="255" label="161"/>
+            <paletteEntry value="162" color="#000000" alpha="255" label="162"/>
+            <paletteEntry value="163" color="#000000" alpha="255" label="163"/>
+            <paletteEntry value="164" color="#000000" alpha="255" label="164"/>
+            <paletteEntry value="165" color="#000000" alpha="255" label="165"/>
+            <paletteEntry value="166" color="#000000" alpha="255" label="166"/>
+            <paletteEntry value="167" color="#000000" alpha="255" label="167"/>
+            <paletteEntry value="168" color="#000000" alpha="255" label="168"/>
+            <paletteEntry value="169" color="#000000" alpha="255" label="169"/>
+            <paletteEntry value="170" color="#000000" alpha="255" label="170"/>
+            <paletteEntry value="171" color="#000000" alpha="255" label="171"/>
+            <paletteEntry value="172" color="#000000" alpha="255" label="172"/>
+            <paletteEntry value="173" color="#000000" alpha="255" label="173"/>
+            <paletteEntry value="174" color="#000000" alpha="255" label="174"/>
+            <paletteEntry value="175" color="#000000" alpha="255" label="175"/>
+            <paletteEntry value="176" color="#000000" alpha="255" label="176"/>
+            <paletteEntry value="177" color="#000000" alpha="255" label="177"/>
+            <paletteEntry value="178" color="#000000" alpha="255" label="178"/>
+            <paletteEntry value="179" color="#000000" alpha="255" label="179"/>
+            <paletteEntry value="180" color="#000000" alpha="255" label="180"/>
+            <paletteEntry value="181" color="#000000" alpha="255" label="181"/>
+            <paletteEntry value="182" color="#000000" alpha="255" label="182"/>
+            <paletteEntry value="183" color="#000000" alpha="255" label="183"/>
+            <paletteEntry value="184" color="#000000" alpha="255" label="184"/>
+            <paletteEntry value="185" color="#000000" alpha="255" label="185"/>
+            <paletteEntry value="186" color="#000000" alpha="255" label="186"/>
+            <paletteEntry value="187" color="#000000" alpha="255" label="187"/>
+            <paletteEntry value="188" color="#000000" alpha="255" label="188"/>
+            <paletteEntry value="189" color="#000000" alpha="255" label="189"/>
+            <paletteEntry value="190" color="#000000" alpha="255" label="190"/>
+            <paletteEntry value="191" color="#000000" alpha="255" label="191"/>
+            <paletteEntry value="192" color="#000000" alpha="255" label="192"/>
+            <paletteEntry value="193" color="#000000" alpha="255" label="193"/>
+            <paletteEntry value="194" color="#000000" alpha="255" label="194"/>
+            <paletteEntry value="195" color="#000000" alpha="255" label="195"/>
+            <paletteEntry value="196" color="#000000" alpha="255" label="196"/>
+            <paletteEntry value="197" color="#000000" alpha="255" label="197"/>
+            <paletteEntry value="198" color="#000000" alpha="255" label="198"/>
+            <paletteEntry value="199" color="#000000" alpha="255" label="199"/>
+            <paletteEntry value="200" color="#000000" alpha="255" label="200"/>
+            <paletteEntry value="201" color="#000000" alpha="255" label="201"/>
+            <paletteEntry value="202" color="#000000" alpha="255" label="202"/>
+            <paletteEntry value="203" color="#000000" alpha="255" label="203"/>
+            <paletteEntry value="204" color="#000000" alpha="255" label="204"/>
+            <paletteEntry value="205" color="#000000" alpha="255" label="205"/>
+            <paletteEntry value="206" color="#000000" alpha="255" label="206"/>
+            <paletteEntry value="207" color="#000000" alpha="255" label="207"/>
+            <paletteEntry value="208" color="#000000" alpha="255" label="208"/>
+            <paletteEntry value="209" color="#000000" alpha="255" label="209"/>
+            <paletteEntry value="210" color="#000000" alpha="255" label="210"/>
+            <paletteEntry value="211" color="#000000" alpha="255" label="211"/>
+            <paletteEntry value="212" color="#000000" alpha="255" label="212"/>
+            <paletteEntry value="213" color="#000000" alpha="255" label="213"/>
+            <paletteEntry value="214" color="#000000" alpha="255" label="214"/>
+            <paletteEntry value="215" color="#000000" alpha="255" label="215"/>
+            <paletteEntry value="216" color="#000000" alpha="255" label="216"/>
+            <paletteEntry value="217" color="#000000" alpha="255" label="217"/>
+            <paletteEntry value="218" color="#000000" alpha="255" label="218"/>
+            <paletteEntry value="219" color="#000000" alpha="255" label="219"/>
+            <paletteEntry value="220" color="#000000" alpha="255" label="220"/>
+            <paletteEntry value="221" color="#000000" alpha="255" label="221"/>
+            <paletteEntry value="222" color="#000000" alpha="255" label="222"/>
+            <paletteEntry value="223" color="#000000" alpha="255" label="223"/>
+            <paletteEntry value="224" color="#000000" alpha="255" label="224"/>
+            <paletteEntry value="225" color="#000000" alpha="255" label="225"/>
+            <paletteEntry value="226" color="#000000" alpha="255" label="226"/>
+            <paletteEntry value="227" color="#000000" alpha="255" label="227"/>
+            <paletteEntry value="228" color="#000000" alpha="255" label="228"/>
+            <paletteEntry value="229" color="#000000" alpha="255" label="229"/>
+            <paletteEntry value="230" color="#000000" alpha="255" label="230"/>
+            <paletteEntry value="231" color="#000000" alpha="255" label="231"/>
+            <paletteEntry value="232" color="#000000" alpha="255" label="232"/>
+            <paletteEntry value="233" color="#000000" alpha="255" label="233"/>
+            <paletteEntry value="234" color="#000000" alpha="255" label="234"/>
+            <paletteEntry value="235" color="#000000" alpha="255" label="235"/>
+            <paletteEntry value="236" color="#000000" alpha="255" label="236"/>
+            <paletteEntry value="237" color="#000000" alpha="255" label="237"/>
+            <paletteEntry value="238" color="#000000" alpha="255" label="238"/>
+            <paletteEntry value="239" color="#000000" alpha="255" label="239"/>
+            <paletteEntry value="240" color="#000000" alpha="255" label="240"/>
+            <paletteEntry value="241" color="#000000" alpha="255" label="241"/>
+            <paletteEntry value="242" color="#000000" alpha="255" label="242"/>
+            <paletteEntry value="243" color="#000000" alpha="255" label="243"/>
+            <paletteEntry value="244" color="#000000" alpha="255" label="244"/>
+            <paletteEntry value="245" color="#000000" alpha="255" label="245"/>
+            <paletteEntry value="246" color="#000000" alpha="255" label="246"/>
+            <paletteEntry value="247" color="#000000" alpha="255" label="247"/>
+            <paletteEntry value="248" color="#000000" alpha="255" label="248"/>
+            <paletteEntry value="249" color="#000000" alpha="255" label="249"/>
+            <paletteEntry value="250" color="#000000" alpha="255" label="250"/>
+            <paletteEntry value="251" color="#000000" alpha="255" label="251"/>
+            <paletteEntry value="252" color="#000000" alpha="255" label="252"/>
+            <paletteEntry value="253" color="#000000" alpha="255" label="253"/>
+            <paletteEntry value="254" color="#000000" alpha="255" label="254"/>
+            <paletteEntry value="255" color="#000000" alpha="255" label="255"/>
+          </colorPalette>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeRed="255" colorizeOn="0" grayscaleMode="0" saturation="0" invertColors="0" colorizeGreen="128" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" maxScale="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924763202667</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924763202667</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-85.05112877980660357</ymin>
+        <xmax>179.99999999999997158</xmax>
+        <ymax>85.05112877980660357</ymax>
+      </wgs84extent>
+      <id>OSM_Standard_8bca87c8_1e64_4a44_9f54_25956dcd6af1</id>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=19&amp;url=http://tile.openstreetmap.org/{z}/{x}/{y}.png</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</attribution>
+      <layername>OSM Standard</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>OpenStreetMap tiles</identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title>OpenStreetMap tiles</title>
+        <abstract>OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.</abstract>
+        <links>
+          <link name="Source" url="https://www.openstreetmap.org/" format="" mimeType="" size="" description="" type="WWW:LINK"/>
+        </links>
+        <dates/>
+        <fees></fees>
+        <rights>Base map and data from OpenStreetMap and OpenStreetMap Foundation (CC-BY-SA). © https://www.openstreetmap.org and contributors.</rights>
+        <license>Open Data Commons Open Database License (ODbL)</license>
+        <license>Creative Commons Attribution-ShareAlike (CC-BY-SA)</license>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+            <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+            <srsid>3857</srsid>
+            <srid>3857</srid>
+            <authid>EPSG:3857</authid>
+            <description>WGS 84 / Pseudo-Mercator</description>
+            <projectionacronym>merc</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="-180" maxz="0" crs="EPSG:4326" miny="-85.05112877980660357" dimensions="2" minz="0" maxy="85.05112877980660357" maxx="180"/>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" mode="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation zscale="1" enabled="0" symbology="Line" zoffset="0" band="1">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{29900b08-e4ab-41c7-b3f1-1027388e7cdd}" class="SimpleLine" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="196,60,57,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.6" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" id="{dd8d2de9-be50-4f41-bcd3-15658e2767eb}" class="SimpleFill" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="196,60,57,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="no" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+      </elevation>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" value="Value" type="QString"/>
+        </Option>
+      </customproperties>
+      <mapTip enabled="1"></mapTip>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" value="" type="QString"/>
+          <Option name="properties"/>
+          <Option name="type" value="collection" type="QString"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer opacity="1" alphaBand="-1" nodataColor="" type="singlebandcolordata" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeRed="255" colorizeOn="0" grayscaleMode="0" saturation="0" invertColors="0" colorizeGreen="128" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="GIS_Layer_Version1_b9f974f5_f801_4820_932d_71a05fee3d86"/>
+    <layer id="OSM_Standard_8bca87c8_1e64_4a44_9f54_25956dcd6af1"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawLabelMetrics type="bool">false</DrawLabelMetrics>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <dates>
+      <date value="2023-09-25T12:14:40" type="Created"/>
+    </dates>
+    <author>Joey Paul Eli Haynes</author>
+    <creation>2023-09-25T12:14:40</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <Sensors/>
+  <ProjectViewSettings UseProjectScales="0" rotation="0">
+    <Scales/>
+    <DefaultViewExtent ymax="99.34180416748489506" ymin="-17.3394900819064901" xmin="-183.14655871741291548" xmax="-47.82111625240638375">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectStyleSettings RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///hqsyXm_styles.db">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings timeStep="1" timeStepUnit="h" frameRate="1" cumulativeTemporalRange="0"/>
+  <ElevationProperties>
+    <terrainProvider type="flat">
+      <TerrainProvider scale="1" offset="0"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" value="6" type="int"/>
+        <Option name="direction_format" value="0" type="int"/>
+        <Option name="rounding_type" value="0" type="int"/>
+        <Option name="show_plus" value="false" type="bool"/>
+        <Option name="show_thousand_separator" value="true" type="bool"/>
+        <Option name="show_trailing_zeros" value="false" type="bool"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option name="angle_format" value="DecimalDegrees" type="QString"/>
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" value="6" type="int"/>
+        <Option name="rounding_type" value="0" type="int"/>
+        <Option name="show_leading_degree_zeros" value="false" type="bool"/>
+        <Option name="show_leading_zeros" value="false" type="bool"/>
+        <Option name="show_plus" value="false" type="bool"/>
+        <Option name="show_suffix" value="false" type="bool"/>
+        <Option name="show_thousand_separator" value="true" type="bool"/>
+        <Option name="show_trailing_zeros" value="false" type="bool"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+  <ProjectGpsSettings autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="">
+    <timeStampFields/>
+  </ProjectGpsSettings>
+</qgis>

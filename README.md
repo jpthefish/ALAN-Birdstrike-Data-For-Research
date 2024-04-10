@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the codebase for a predictive modeling and public policy design-oriented project where we investigate the impact of artificial lights at night (ALAN) on bird strikes.
+This is the codebase for a predictive modeling and public policy design-oriented research project investigating the impact of artificial lights at night (ALAN) on bird strikes.
 
 ## Abstract
 
